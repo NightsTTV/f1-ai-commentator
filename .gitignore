@@ -1,0 +1,24 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Secrets - keep the example, never the real thing
+.env
+.env.*
+!.env.example
+
+# Compiled output (this repo's ancestor committed 126 .class files)
+*.class
